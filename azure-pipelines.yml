@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: "OriPcAgent"
+  name: default
  # vmImage: ubuntu-latest
 
 steps:
