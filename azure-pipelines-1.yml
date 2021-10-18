@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: "OriPcAgent"
+  name: OriPcAgent
 
 steps:
 - script: echo Hello, world!
