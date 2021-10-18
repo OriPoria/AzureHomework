@@ -11,6 +11,6 @@ pool:
 
 steps:
 - script: |
-    az group create --name orires2 --location eastus
-    az deployment group create --resource-group orires2 --template-file res.json --parameters res.parameters.json
+    az group create --name orires --location eastus
+    az deployment group create --resource-group orires --template-file res.json --parameters res.parameters.json
   displayName: 'deploy storage account and server'
