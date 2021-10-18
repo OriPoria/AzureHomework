@@ -1,6 +1,7 @@
 # AzureHomework
 
-create-script- create the resource group and then apply the ARM file with 2 storages and a VM.
+azure-pipelines- pipeline to create resource group and resources from the res.json ARM file.
+Run the pipeline with an agent in the local computer.
 
 vm-blobtransfer-script- script that runs on the VM through the "RunPowerShellScript" command.
 In this script we initialize the azure cli and then make the creation, upload and copy flow.
