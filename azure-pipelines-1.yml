@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: "OriPcAgent"
+  name: "OriPcAgent"
 
 steps:
 - script: echo Hello, world!
