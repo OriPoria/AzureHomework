@@ -7,7 +7,5 @@ vm-blobtransfer-script- script that runs on the VM through the "RunPowerShellScr
 In this script we initialize the azure cli and then make the creation, upload and copy flow.
 
 ## How to use?
-After subscribe to your account in vsCode, run create-script.ps1 to create the resources and 
-then run data-transfer-script.ps1 to create the demo blobs, upload to the container in the 
-first storage 
+After subscribe to your account in vsCode, run the yaml file and then run main-script.ps1 to run a script on the VM  and it will create the demo blobs, upload to the container in the first storage and copy to the other container. 
 
