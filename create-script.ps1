@@ -5,4 +5,4 @@ az group create --name orires --location eastus
 az deployment group create --resource-group orires --template-file res.json --parameters res.parameters.json
 
 # delete resource group:
-# az group delete --name devops
+# az group delete --name devops 
