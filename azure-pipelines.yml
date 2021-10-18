@@ -10,10 +10,7 @@ pool:
   name: default
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
 - script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    az group create --name orires2 --location eastus
+    az deployment group create --resource-group orires2 --template-file res.json --parameters res.parameters.json
+  displayName: 'deploy storage account and server'
